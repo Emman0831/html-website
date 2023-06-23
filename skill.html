@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> MY LAYOUT </title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    html, body {
+    height: 819px;
+    weight: 100px;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    }
+      *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Century;
+        box-sizing: border-box;
+      }
+      :root {
+      --primary-color: #ff7613;
+      --text-color: #131212;
+      }
+      header {
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg.jpg);
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      min-height: 100px;
+      }
+      .und1 {
+      float: right;
+      list-style-type: none;
+      margin-top: 14px;
+      min-height: 70px;
+      margin-right: 2px;
+      font-size: 8.5px;
+      display: block;
+      }
+      ul li {
+      display: inline-block;
+      }
+      ul li a{
+      text-decoration: none;
+      color: #fff;
+      padding: 2px 2px;
+      border: 1px solid transparent;
+      transition: 0.5 ease;
+      }
+      .lul li  a:hover{
+      background-color: #fff;
+      color: #000;
+      }
+      ul li.active a:hover{
+      background-color: #fff;
+      color: #000;
+      }
+      ul li.active3 a{
+      background-color: #fff;
+      color: #000;
+      text-decoration: underline 1px;
+      }
+      .logo img{
+      float: left;
+      width: 130px;
+      height: auto;
+      margin-top: -17px;
+      margin-left: -13px;
+      display: block;
+      }
+      .main {
+      max-width: 2000px;
+      margin: auto;
+      }
+      .hd {
+      margin-top: -700px;
+      color: var(--primary-color);
+      margin-left: 30px;
+      font-size: 20px;
+      }
+      .und {
+      margin-left: 45px;
+      list-style-type: disc;
+      margin-top: 5px;
+      color: var(--text-color);
+      }
+      .hor {
+      margin-right: 20px;
+      margin-bottom: 5px;
+      }
+      .hor1 {
+      margin-top: 5px;
+      margin-left: -15px;
+      width: 360px;
+      }
+    </style>
+  </head>
+      
+  <body>
+    <header>
+      
+      <div class="main">
+        <dir class="logo">
+          <img src="logo.png">
+        </dir>
+        <ul class="und1">
+          <li class="active"><a href="mylayout.html"><i class="fa fa-home"></i> Home</a></li>
+          <li class="active2"><a href="aboutme.html">About me</a></li>
+          <li class="active3"><a href="skill.html"><i class="fa fa-caret-down"></i> Skills</a></li>
+          <li class="active4"><a href="experience.html">Experiences</a></li>
+          <li class="active5"><a href="educational.html">Educational Attainment</a></li>
+        </ul>
+      </div>
+      </header>
+      <div class="dv">
+      <h1 class="hd"><hr class="hor" > My skills </h1>
+      <ol class="und">
+      	<li> I'm currently studying about programming </li>
+      	<li> I'm willing to give my all time to have a full potential in programming <hr class="hor1"></li>
+      </ol>
+      <div>
+   
+  </body>
+</html>
